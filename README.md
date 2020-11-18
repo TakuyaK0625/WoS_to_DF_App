@@ -2,7 +2,15 @@
 このアプリケーションでは、Web of Scienceからダウンロードできる論文データを著者名単位の個票データに整理するとともに、各著者がFirst AuthorやReprint Authorか否か, 当該論文が国際共著論文か否かについて判定します。
 
 ## 使い方
-1. 「data」フォルダを作成し、Web of Scienceからダウンロードしたファイルを保管（＋ある程度のクリーニング）
+1. ご自身のR言語の実行環境において、以下のパッケージをインストールしてください。
+* install.packages("shiny")
+* install.packages(shinydashboard)
+* install.packages(dplyr)
+* install.packages(stringr)
+* install.packages(tidyr)
+* install.packages(DT)
+* install.packages(purrr)
+
 2. WoS_to_DataFrame.Rを実行（※作業ディレクトリは「data」フォルダの1つ上）
 
 
