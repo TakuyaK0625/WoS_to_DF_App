@@ -25,8 +25,8 @@ Web of Scienceより整理したい論文データをダウンロードしてお
 * Org：所属機関名
 * Country：国名
 * Int.collab：国際共著論文かどうか
-* FA：筆頭著者かどうか
-* RA：責任著者かどうか
+* FA：First Authorかどうか
+* RA：Reprint Authorかどうか
 * Check.Org：後述（備考１）
 * Check.RA：後述（備考２）
 * Pub.type：出版物タイプ
@@ -34,10 +34,18 @@ Web of Scienceより整理したい論文データをダウンロードしてお
 * Doc.type：文書タイプ
 * Doc.title：文書タイトル
 * Conf.name：学会名
-* ISSN
-* eISSN
+* ISSN：ISSN
+* eISSN：ISSN（電子版）
 * Year：出版年
-* DOI：
-* WoS.category
-* Area
-* WoS.id
+* DOI：DOI
+* WoS.category：Web of Scienceの分野
+* Area：研究分野
+* WoS.id：Web of ScienceにおけるID（Accession Number）
+
+## 備考
+
+備考１：所属機関について
+
+備考２：Reprint Authorについて
+
+
