@@ -8,12 +8,12 @@ Web of Scienceより整理したい論文データをダウンロードしてお
 
 1. ご自身のR言語の実行環境において、以下のパッケージをインストールしてください。
 * install.packages("shiny")
-* install.packages(shinydashboard)
-* install.packages(dplyr)
-* install.packages(stringr)
-* install.packages(tidyr)
-* install.packages(DT)
-* install.packages(purrr)
+* install.packages("shinydashboard")
+* install.packages("dplyr")
+* install.packages("stringr")
+* install.packages("tidyr")
+* install.packages("DT")
+* install.packages("purrr")
 
 2. app.Rを開き全てのコードを実行するか、Rstudioの場合はコンソール右上のRun Appボタンを押してアプリを起動してください。
 
@@ -51,4 +51,5 @@ Web of Scienceより整理したい論文データをダウンロードしてお
 
 **備考２：Reprint Authorについて**
 
-
+Reprint Authorは著者の略称と所属機関名で照合しています。そのため、Reprint Authorと同じ略称と所属機関の著者がいた場合には、この方もRAはTRUEとなります。RAがTRUEの著者のうち、略称と所属機関
+が同じ著者が複数いた場合にはCheck.RAがTRUEになるようにしていますので、このような場合には目視による確認作業をお願いいたします。
