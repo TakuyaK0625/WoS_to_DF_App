@@ -27,8 +27,8 @@ Web of Scienceより整理したい論文データをダウンロードしてお
 * Int.collab：国際共著論文かどうか
 * FA：First Authorかどうか
 * RA：Reprint Authorかどうか
-* Check.Org：後述（備考１）
-* Check.RA：後述（備考２）
+* Check.Org：所属機関情報にチェックが必要かどうか（備考１）
+* Check.RA：Reprint Author情報にチェックが必要かどうか（備考２）
 * Pub.type：出版物タイプ
 * Pub.name：出版物名
 * Doc.type：文書タイプ
@@ -44,8 +44,10 @@ Web of Scienceより整理したい論文データをダウンロードしてお
 
 ## 備考
 
-備考１：所属機関について
+**備考１：所属機関について**
+所属機関情報は著者のフルネームによって照合しており、フルネームが同じ著者がいた場合には、Orgにそれぞれの所属機関名がマージした情報が入ります。そのため、Check.OrgがTRUEの研究者のOrgについては、目視による確認作業をお願いいたします。
 
-備考２：Reprint Authorについて
+
+**備考２：Reprint Authorについて**
 
 
