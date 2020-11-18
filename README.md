@@ -20,3 +20,24 @@ Web of Scienceより整理したい論文データをダウンロードしてお
 3. Web of Scienceの論文データをアップロードして実行してください。整理が終わったら論文データのダウンロードも可能です。
 
 ## 出力データ
+* Author.full：著者名（フルネーム）
+* Author.short：著者名（略称）
+* Org：所属機関名
+* Country：国名
+* Int.collab：国際共著論文かどうか
+* FA：筆頭著者かどうか
+* RA：責任著者かどうか
+* Check.Org：後述（備考１）
+* Check.RA：後述（備考２）
+* Pub.type：出版物タイプ
+* Pub.name：出版物名
+* Doc.type：文書タイプ
+* Doc.title：文書タイトル
+* Conf.name：学会名
+* ISSN
+* eISSN
+* Year：出版年
+* DOI：
+* WoS.category
+* Area
+* WoS.id
